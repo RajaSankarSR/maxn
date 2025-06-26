@@ -1,1 +1,78 @@
 
+header{
+    padding: 20px;
+}
+.head a{
+    text-decoration: none;
+    color: white;    
+}
+.head{
+     display: flex;
+    gap: 30px;
+    float: right;
+}
+div{
+    left:0;
+    right:0;
+    display: inline flex;
+    color: white;
+}
+.container{
+    position: relative;
+    left: -20px;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    background-color: white;
+}
+
+.searchbar{
+    display: flex;
+    background-color: white;
+  float: right;
+  margin-left: 900px;
+  gap: 20px;
+}
+.search{
+    text-align: center;
+    float: right;
+}
+.product{
+    padding: 50px 45px;
+    margin: 20px;
+    border: 2px solid aliceblue;
+    background-color:whitesmoke;
+    cursor: pointer;
+    
+   
+   
+}
+.product img:hover{
+    transform: scale(1.15);
+}
+.page{
+    background-color: black;
+    width: 100%;
+   
+}
+.product-name h3{
+    
+    color:black
+}
+.footer{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    height: 300px;
+}
+ .head{
+    margin: 10px;
+   padding-left: 25%;
+ }
+ .abt{
+    
+    margin-right: 50px;
+    
+ }
